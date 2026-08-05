@@ -1,25 +1,33 @@
 # Healthcare-data-Analytics-Project
 Healthcare Data Analytics Project using SQL, MySQL, Data Warehousing (Star Schema) and Power BI.
 
-# Project Purpose
-The primary goals of this project are to:
+# Project Overview
+– Analyzed a relational healthcare dataset containing 5 interconnected tables, 50 patients, and 200+
+appointment and billing records using SQL to generate business insights.
 
-- Analyze patient demographics and registration trends.
-- Evaluate doctor availability, experience, and workload.
-- Study appointment patterns and operational efficiency.
-- Identify high-demand medical treatments.
-- Analyze treatment costs and revenue generation.
-- Evaluate billing performance and payment status.
-- Generate actionable business insights for hospital management.
+– Developed 19+ analytical SQL queries covering Exploratory Data Analysis (EDA), patient segmentation, doctor
+workload, appointment trends, treatment performance, and revenue analysis using JOINs, CTEs, CASE,
+Aggregate Functions, and Window Functions.
+
+– Identified key findings including Pediatrics as the highest-demand specialization (98 appointments),
+Chemotherapy contributing 23.38% of treatment revenue, and significant appointment no-shows and
+pending payments affecting operational efficiency.
+
+– Provided data-driven recommendations to improve patient acquisition, optimize doctor workload, reduce
+appointment no-shows, strengthen billing efficiency, and support hospital decision-making through business
+intelligence.
 
 ---
 
 # Tech Stack
 
 - SQL (MySQL)
-- MySQL Workbench
-- Relational Database
-- Git & GitHub
+-MySQL Workbench
+-Power BI Desktop
+-DAX
+-Data Warehouse
+-Star Schema
+-Git & GitHub
 
 ---
 # Dataset Information
@@ -52,7 +60,13 @@ The project consists of five relational tables:
 - Percentage Calculations
 - Data Filtering & Sorting
 - Business Reporting
-
+- KPI Development
+- Interactive Dashboard
+- Data Modeling
+- Relationship Management
+- Star Schema Design
+- Data Visualization
+  
 ---
 # Business Questions Answered
 
@@ -143,53 +157,55 @@ The project consists of five relational tables:
 - Date Functions
 
 ---
-# Skills Demonstrated
+# Data Warehouse
 
-### SQL Skills
+A Star Schema data model was designed to improve analytical performance and simplify reporting.
 
-- Data Cleaning
-- Data Exploration
-- Data Aggregation
-- Data Filtering
-- Business Reporting
-- Analytical Query Writing
-- KPI Calculation
-- Data Segmentation
-- Revenue Analysis
-
-### Analytical Skills
-
-- Exploratory Data Analysis (EDA)
-- Business Problem Solving
-- Trend Analysis
-- Customer Segmentation
-- Operational Analysis
-- Financial Analysis
-- Data Interpretation
-- Insight Generation
-- Decision Support
-
+Dimension Tables
+- Dim Patient
+- Dim Doctor
+- Dim Treatment
+- Dim Date
+Fact Table
+- Fact Healthcare
 ---
-# Future Enhancements
-
-- Build an interactive Power BI dashboard.
-- Create KPI cards and executive dashboards.
-- Add advanced DAX measures.
-- Implement a Star Schema data model.
-- Perform predictive healthcare analytics using Python.
-- Develop machine learning models for patient insights.
-
+# Power BI Dashboard
+An interactive Power BI dashboard was developed to visualize healthcare KPIs and business insights.
+Dashboard Highlights
+- Total Patients
+- Total Doctors
+- Total Appointments
+- Total Revenue
+- Total Treatments
+- Cancellation Rate
+- Appointment Status Analysis
+- Monthly Revenue Trend
+- Top Doctors
+- Revenue by Treatment
+- Specialization Demand
+- Interactive Filters & Slicers
 ---
+# DAX Measures
+Key DAX measures were created for dashboard KPIs.
+- Total Patients
+- Total Doctors
+- Total Appointments
+- Total Revenue
+- Total Treatments
+- Average Bill Amount
+- Cancellation Rate
 
-# Project Status
+--- 
+# Dashboard Preview
+![Dashboard](Images/Dashboard_Overview.png)
 
- SQL Analysis Completed
+--- 
+# Star Schema
+![Star Schema](Images/Star_Schema.png)
 
- Power BI Dashboard (Coming Soon)
 
- Python Analytics (Future Enhancement)
 
----
+
 
 
 
