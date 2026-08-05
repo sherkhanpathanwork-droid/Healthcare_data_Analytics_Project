@@ -197,7 +197,7 @@ Key DAX measures were created for dashboard KPIs.
 
 --- 
 # Dashboard Preview
-![Dashboard](Images/Dashboard_Overview.png)
+![Dashboard](https://github.com/sherkhanpathanwork-droid/Healthcare_data_Analytics_Project/blob/main/BI%20Dashboard.png)
 
 --- 
 # Star Schema
