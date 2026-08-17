@@ -22,12 +22,12 @@ intelligence.
 # Tech Stack
 
 - SQL (MySQL)
--MySQL Workbench
--Power BI Desktop
--DAX
--Data Warehouse
--Star Schema
--Git & GitHub
+- MySQL Workbench
+- Power BI Desktop
+- DAX
+- Data Warehouse
+- Star Schema
+- Git & GitHub
 
 ---
 # Dataset Information
@@ -197,7 +197,7 @@ Key DAX measures were created for dashboard KPIs.
 
 --- 
 # Dashboard Preview
-![Dashboard](https://github.com/sherkhanpathanwork-droid/Healthcare_data_Analytics_Project/blob/main/BI%20Dashboard.png)
+![Dashboard](https://github.com/sherkhanpathanwork-droid/Healthcare_data_Analytics_Project/blob/main/Bi%20dashbord%202.png)
 
 --- 
 # Star Schema
